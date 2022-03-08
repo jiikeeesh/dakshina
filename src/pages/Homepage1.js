@@ -2,13 +2,31 @@ import React from 'react'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
 import Brands from './Brands'
-
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
+import Slider from "react-slick";
 
 
 
-const Homepage1 = () => {
+
+const Homepage1  = () => {
+	const settings = {
+		speed: 5000,
+		autoplay: true,
+		autoplaySpeed: 0,
+		cssEase: "linear",
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		infinite: true,
+		swipeToSlide: true,
+		centerMode: true,
+		focusOnSelect: false,
+		arrows: false,
+		dots: false,
+		
+	  };
+
+	
   return (
    <>
       
@@ -226,13 +244,39 @@ const Homepage1 = () => {
                     <div className="card">
 					<h2><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h2>
                         <div className="card-body">
-                           	<img src="./images/remitance1.jpg" className="image" alt="..."/>
+						<div>
+        <h2> Multiple items </h2>
+        <Slider {...settings}>
+          <div>
+           <img src="images/remitance1.jpg" alt="remitance" />
+          </div>
+          <div>
+		  <img src="images/remitance2.jpg" alt="remitance" />
+          </div>
+          <div>
+		  <img src="images/remitance3.jpg" alt="remitance" />
+          </div>
+          <div>
+		  <img src="images/remitance4.jpg" alt="remitance" />
+          </div>
+          <div>
+		  <img src="images/remitance5.jpg" alt="remitance" />
+          </div>
+          <div>
+		  <img src="images/remitance6.jpg" alt="remitance" />
+          </div>
+          
+        </Slider>
+      </div>	
+
+							
+                        	{/* <img src="./images/remitance1.jpg" className="image" alt="..."/>
 	
 							<img src="./images/remitance2.jpg" className="image" alt="..."/>
 							<img src="./images/remitance3.jpg" className="image" alt="..."/>
 							<img src="./images/remitance4.jpg" className="image" alt="..."/>
 							<img src="./images/remitance5.jpg" className="image" alt="..."/>
-							<img src="./images/remitance6.jpg" className="image" alt="..."/>
+							<img src="./images/remitance6.jpg" className="image" alt="..."/> */}
 		
 						</div>
 		

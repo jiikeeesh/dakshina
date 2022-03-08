@@ -2,13 +2,17 @@ import React from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-const Brands = () => {
-  return (
+class Brands extends React.Component {
+
+  
+  render ()
+  {
+  return(
    <>
-   <div className="brand-title">
+   <div  className="brand-title">
       <h1><b>हाम्रो साझेदार</b></h1>
       </div>
-    <div class="brand">
+    <div id='brands-bar' class="brand">
    
         <div class="container-fluid">
           <div class="brand-slider">
@@ -24,6 +28,7 @@ const Brands = () => {
     
 </>
   )
+  }
 }
 
 export default Brands

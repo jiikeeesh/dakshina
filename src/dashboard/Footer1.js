@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Brands from '../pages/Brands'
 
 const Footer1 = () => {
    
   return (
    <>
-   
+   <Brands/>
    <div className="footer">
 	<div className="container">
 		<div className="col-md-3 footer-grid">

@@ -30,7 +30,7 @@ ul{
 }
 
 .naver{
-    height: 80px;
+    height: 100px;
     width: 100%;
     margin-top: 0px;
     display: flex;
@@ -56,7 +56,7 @@ ul{
 
 .nav-top{
     float:right;
-    padding-top: 15px;  
+    padding-top: 28px;  
     padding-left: 22em;
     
 }
@@ -276,16 +276,16 @@ width: 90%;
 
 /* navtop starts */
 .nav_row{
-    height: 50px;
+    height: 30px;
     width: 100%;
     background-color: #0f5499;
     color: white;
 }
 .navbar_top{
-    padding-top: 1em;
+    padding-top: 9px;
 }
 .navbar_top h1{
-    font-size: 15px;
+    font-size: 10px;
 }
 
 /* navtop ends */
@@ -499,7 +499,7 @@ img.img-head {
   
 }
 .hyper:hover {
-    font-weight: bolder;
+    
     /* transition: 0.5s ease-in; */
     background-color: #eee;
   
@@ -670,7 +670,7 @@ img.img-head {
 }
 .nav >li:hover{
     background-color: #eee;
-    transition: 0.5s ease-in;
+    transition: 0.1s ease-in;
 }
 ul.multi-column-dropdown {
     text-align: left;
