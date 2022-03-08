@@ -22,7 +22,7 @@ const Navbar1 = () => {
 <div className="naver">
 <div className='container1'>
     <div className='dakshina'>
-    <h1><Link to="/"><img src='dakshina.svg' height={120} width={600}/></Link></h1>
+    <h1><Link to="/"><img src='dakshina.svg' height={100} width={400}/></Link></h1>
     </div>
 
 

@@ -11,16 +11,17 @@ import Slider from "react-slick";
 
 const Homepage1  = () => {
 	const settings = {
+	
 		speed: 5000,
 		autoplay: true,
 		autoplaySpeed: 0,
 		cssEase: "linear",
-		slidesToShow: 2,
-		slidesToScroll: 2,
+		slidesToShow: 1,
+		
 		infinite: true,
 		swipeToSlide: true,
 		centerMode: true,
-		focusOnSelect: false,
+		focusOnSelect: true,
 		arrows: false,
 		dots: false,
 		
@@ -243,26 +244,26 @@ const Homepage1  = () => {
                 <div className="col-lg-3 ">
                     <div className="card">
 					<h2><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h2>
-                        <div className="card-body">
+                        <div className="rem-card-body">
 						<div>
-        <h2> Multiple items </h2>
+        
         <Slider {...settings}>
-          <div>
+          <div className='rem-slide'>
            <img src="images/remitance1.jpg" alt="remitance" />
           </div>
-          <div>
+          <div className='rem-slide'>
 		  <img src="images/remitance2.jpg" alt="remitance" />
           </div>
-          <div>
+          <div className='rem-slide'>
 		  <img src="images/remitance3.jpg" alt="remitance" />
           </div>
-          <div>
+          <div className='rem-slide'>
 		  <img src="images/remitance4.jpg" alt="remitance" />
           </div>
-          <div>
+          <div className='rem-slide'>
 		  <img src="images/remitance5.jpg" alt="remitance" />
           </div>
-          <div>
+          <div className='rem-slide'>
 		  <img src="images/remitance6.jpg" alt="remitance" />
           </div>
           
@@ -354,7 +355,7 @@ const Homepage1  = () => {
 
 {/* <QuickLinks/> */}
  
-<Brands/>
+
 <Footer1/>
 
     <div className='translate'>भाषा परिवर्तन गर्नुहोस्

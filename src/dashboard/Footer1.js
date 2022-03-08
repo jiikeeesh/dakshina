@@ -7,6 +7,8 @@ const Footer1 = () => {
   return (
    <>
    <Brands/>
+   <br/>
+   <br/>
    <div className="footer">
 	<div className="container">
 		<div className="col-md-3 footer-grid">
