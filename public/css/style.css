@@ -57,7 +57,7 @@ ul{
 .nav-top{
     float:right;
     padding-top: 28px;  
-    padding-left: 22em;
+    padding-left: 20em;
     
 }
 
@@ -174,6 +174,13 @@ width: 90%;
     
 
 }
+.intro-image img{
+    transition: transform 1s;
+}
+.intro-image img:hover{
+    transform: scale(1.2);
+
+}
 
 .solo{
     background-color: #0f5499 ;
@@ -271,10 +278,17 @@ width: 90%;
     color: #fff;
 }
 
-
+.card h4{
+    padding: 1em 1em;
+}
 
 .rem-card-body{
-    padding-top: 8em;
+    
+    padding-top: 3em;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 1em;
+    overflow: hidden;
 }
 .rem-slide{
     padding-left: 2em;
@@ -307,6 +321,22 @@ width: 90%;
     margin: 3em 0;
     
 }
+
+
+/* punji starts */
+
+.text{
+    padding: 4em 2em;
+    line-height: 3em;
+}
+
+.punji-title{
+    padding: 1em;
+}
+
+
+/* punji ends */
+
 
 
 
@@ -1377,13 +1407,16 @@ ul.product-qty {
     margin:0 6px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #029241;
+    background-color: white;
     border: none;
     border-radius: 10px;
 }
 .carousel-indicators .active {
-    background-color: #FAB005;
+    background-color: #3a93d8!important;
     margin: 0 6px;
+}
+.carousel-iiner .first-slide .second-slide{
+    transition: 1s ease-in;
 }
 /*-- //footer-top --*/
 .footer-bottom {

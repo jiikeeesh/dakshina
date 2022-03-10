@@ -9,14 +9,7 @@ const Directors = ({boardDir}) => {
   
   return (
    <>
-    <div className="spec ">
-		 <h3>हाम्रा निर्देशकहरू</h3>
-		<div className="ser-t">
-            <b></b>
-            <span><i></i></span>
-            <b className="line"></b>
-		</div>
-	</div>
+    
     <div className='product'>
     <div className="container">
     <div className=" con-w3l">
@@ -60,13 +53,8 @@ const Directors = ({boardDir}) => {
   <br/>
   <br/>
   <br/>
-  <Footer1/>
+ 
     
-	<div className='translate'>भाषा परिवर्तन गर्नुहोस्
-
-        <Link to="/bod"><input type="submit" value="इंग्लिश "/></Link>
-        <Link to="/bod1"><input type="submit" value="नेपाली  "/></Link>
-    </div>
    
    </>
   )

@@ -1,31 +1,31 @@
 import React from 'react'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
-import Brands from './Brands'
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
-import Slider from "react-slick";
 
 
 
 
 const Homepage1  = () => {
-	const settings = {
+
 	
-		speed: 5000,
-		autoplay: true,
-		autoplaySpeed: 0,
-		cssEase: "linear",
-		slidesToShow: 1,
+	// const settings = {
+	
+	// 	speed: 5000,
+	// 	autoplay: true,
+	// 	autoplaySpeed: 0,
+	// 	cssEase: "linear",
+	// 	slidesToShow: 1,
 		
-		infinite: true,
-		swipeToSlide: true,
-		centerMode: true,
-		focusOnSelect: true,
-		arrows: false,
-		dots: false,
+	// 	infinite: true,
+	// 	swipeToSlide: true,
+	// 	centerMode: true,
+	// 	focusOnSelect: true,
+	// 	arrows: false,
+	// 	dots: false,
 		
-	  };
+	//   };
 
 	
   return (
@@ -61,7 +61,8 @@ const Homepage1  = () => {
     </div>
 	<div className='scrollText'>
 		<div className="container">
-			<marquee behavior="scroll" direction=""><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo omnis, quasi minus cumque nam, quidem voluptas neque, dolores ipsam non ipsa quis. Laborum aut delectus necessitatibus sunt cumque. Dolores, deleniti?</b></marquee>
+			<marquee behavior="scroll" direction=""><b>" सानो सानो बचत नै पुँजी निर्माणको आधार भएकोले खर्च कम गरौँ, दैनिक तथा मासिक आयबाट बचत गर्ने बनी बसालौँ । " | " अनुभवी बैंकर्स तथा सहकारी क्षेत्रमा अनुभव प्राप्त व्यक्तिहरुबाट संचालित " | " श्री दक्षिण फैनान्सलाई बनाऔं साथी जीवन स्तर उठ्छ माथि " | " ... सफलताको २१ औं वर्ष भरोसापूर्ण २२ औं वर्षमा संचालित " |
+</b></marquee>
 		</div>
 
 	</div>
@@ -75,7 +76,7 @@ const Homepage1  = () => {
 	<div className="container">
 		<div className="col-md">
 			<div className="intro-image">
-				<img src="images/of.png" alt="" />
+				<img src="images/ki2.jpg" alt="" />
 			</div>
 			<div className="intro">
 				<div className="intro-title">
@@ -91,7 +92,7 @@ const Homepage1  = () => {
 		</div>
 		<div className="col-md">
 		<div className="intro-image">
-				<img src="images/of.png" alt="" />
+				<img src="images/ki6.jpg" alt="" />
 		</div>
 			<div className="intro">
 				<div className="intro-title">
@@ -243,9 +244,45 @@ const Homepage1  = () => {
 
                 <div className="col-lg-3 ">
                     <div className="card">
-					<h2><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h2>
+					<h4><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h4>
                         <div className="rem-card-body">
-						<div>
+
+
+
+			
+  <div id="myCarousel" className="carousel slide" data-ride="carousel">
+      
+     
+      <div className="carousel-inner" role="listbox">
+        <div className="item active">
+         <Link to="/"> <img className="first-slide" src="images/prabhu.webp" height={200} width={300} alt="First slide"/></Link>
+       
+        </div>
+        <div className="item">
+         <Link to="/"> <img className="second-slide " src="images/remitance3.jpg"  height={200} width={300}alt="Second slide"/></Link>
+         
+        </div>
+        <div className="item">
+          <Link to="/"><img className="third-slide " src="images/western.webp" height={200} width={300} alt="Third slide"/></Link>
+          
+        </div>
+		<div className="item">
+          <Link to="/"><img className="fourth-slide " src="images/ime.webp"  height={200} width={300}alt="Third slide"/></Link>
+          
+        </div>
+		<div className="item">
+          <Link to="/"><img className="fifth-slide " src="images/remitance5.jpg" height={200} width={300} alt="Third slide"/></Link>
+          
+        </div>
+		<div className="item">
+          <Link to="/"><img className="sixth-slide " src="images/remitance6.jpg"  height={200} width={300}alt="Third slide"/></Link>
+          
+        </div>
+      </div>
+    
+    </div>
+						
+						{/* <div>
         
         <Slider {...settings}>
           <div className='rem-slide'>
@@ -268,7 +305,7 @@ const Homepage1  = () => {
           </div>
           
         </Slider>
-      </div>	
+      </div>	 */}
 
 							
                         	{/* <img src="./images/remitance1.jpg" className="image" alt="..."/>

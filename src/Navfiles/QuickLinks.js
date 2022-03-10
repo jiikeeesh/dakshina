@@ -15,8 +15,8 @@ const QuickLinks = () => {
       <ul className='quick-links'>
                            <li className='gun'><Link to="/dirsaying" className=''><span>प्रमुख कार्यकारी अधिकृतको भनाई </span></Link></li>
                            <li className="gun"><Link to="/introduction" className=''><span>परिचय </span></Link></li>
-                           <li className="gun"><Link to="/" className=''><span>उद्देश्य</span></Link></li>
-                           <li className="gun"><Link to="/" className=''><span>संचालकहरूकाे विवरण</span></Link></li>
+                           <li className="gun"><Link to="/objective" className=''><span>उद्देश्य</span></Link></li>
+                           <li className="gun"><Link to="/members" className=''><span>संचालकहरूकाे विवरण</span></Link></li>
                            <li className="gun"><Link to="/" className=''><span>संस्थापक सदस्य विवरण</span></Link></li>
                            <li className="gun"><Link to="/" className=''><span>कर्मचारी व्यवस्थापन</span></Link></li>
                            <li className="gun"><Link to="/" className=''><span>विभिन्न संघ संस्थामा शेयर लगानी</span></Link></li>

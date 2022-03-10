@@ -1,5 +1,4 @@
 import React from 'react'
-import React from 'react'
 import Footer1 from '../dashboard/Footer1'
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
@@ -23,13 +22,23 @@ const Objective = () => {
         <div className="row">
             <div className="right">
                 <div className="card-sub">
-                         <div className="dir-image">
-                <img src="../images/maldives.jpg" alt="" />
-
-            </div>
+                        <div className="objective-text">
+                            <h4>सदस्यहरूलाई सामाजिक, साँस्कृतिक र आर्थिक रुपमा समृद्ध बनाउनको लागि देहाय बमोजिमका कार्यहरु गर्नु संस्थाको मुख्य उद्देश्य हुनेछ ।</h4>
+                        </div>
             <div className="dir-saying">
-                <p>Lorem ipsum dolor sit amet consectetur adipieniam atque magnam exercitationem, fugit aut consequuntur reprehenderit sunt cum sequi, ut officia earum laudantium alias ipsum in eum blanditiis voluptate totam aliquid doloribus! A consectetur cumque unde quaerat quo quod corporis quisquam saepe temporibus facere voluptatem placeat consequatur accusantium facilis, ipsa vel, iste nam eum suscipit? Quasi voluptas est suscipit temporibus in accusamus. Dignissimos corporis voluptas, nesciunt repellendus cumque sapiente temporibus et sint expedita, odio enim? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, et similique, ea accusantium ipsa unde architecto distinctio enim quae iste odio voluptate doloribus, eaque id laboriosam? Error eos perferendis animi?</p>
-            </div>
+                <ul>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    <li> नियमित रूपमा सदस्यहरूबाट निक्षेप संकलन गर्नुको साथै उनीहरूले जम्मा गरेको निक्षेपमा प्रतिस्पर्धात्मक दरमा ब्याज प्रदान गर्ने ।</li>
+                    </ul>           
+     </div>
                     
                 </div>
            

@@ -58,8 +58,8 @@ const Navbar1 = () => {
 			
 												<li><Link to="/dirsaying"><i class="fa fa-angle-right" aria-hidden="true"></i>प्रमुख कार्यकारी अधिकृतको भनाई</Link></li>
 												<li><Link to="/introduction"><i class="fa fa-angle-right" aria-hidden="true"></i>परिचय</Link></li>
-												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>उद्देश्य</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>संचालकहरूकाे विवरण</Link></li>
+												<li><Link to="/objective"> <i class="fa fa-angle-right" aria-hidden="true"></i>उद्देश्य</Link></li>
+												<li><Link to="/members"  onClick={()=>{FilterItems("board__directors")}}><i class="fa fa-angle-right" aria-hidden="true"></i>संचालकहरूकाे विवरण</Link></li>
 										
 											</ul>
 										
@@ -89,12 +89,7 @@ const Navbar1 = () => {
 									</div>	
 								</ul>
 							</li>
-          
-
-
-
-
-          <li ><Link to="/bod1" className="hyper"   onClick={()=>{FilterItems("board__directors")}}><span>BOD</span></Link></li>	
+          	
           <li class="dropdown ">
 								<Link z="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>योगदान<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
@@ -102,8 +97,8 @@ const Navbar1 = () => {
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>पूँजी संरचना</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>वित्तिय विवरण</Link></li>
+												<li><Link to="/punji"><i class="fa fa-angle-right" aria-hidden="true"></i>पूँजी संरचना</Link></li>
+												<li><Link to="/biwarand"><i class="fa fa-angle-right" aria-hidden="true"></i>वित्तिय विवरण</Link></li>
 												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>नेपाल सरकारलाई राजश्वमा गरेको योगदान</Link></li>
 												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>शेयरसदस्य विवरण</Link></li>
 											</ul>
@@ -123,8 +118,8 @@ const Navbar1 = () => {
 										<div class="col-sm-3">
 											<ul class="multi-column-dropdown">
 			
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>निक्षेप सुविधा</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>कर्जा सुविधा</Link></li>
+												<li><Link to="/nispak"><i class="fa fa-angle-right" aria-hidden="true"></i>निक्षेप सुविधा</Link></li>
+												<li><Link to="/loan"><i class="fa fa-angle-right" aria-hidden="true"></i>कर्जा सुविधा</Link></li>
 												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>सूचना प्रबिधि</Link></li>
 											</ul>
 										
@@ -134,6 +129,7 @@ const Navbar1 = () => {
 									</div>	
 								</ul>
 							</li>
+							<li ><Link to="/gallery" className="hyper"   ><span>तस्बिर पुस्तिका</span></Link></li>
           <li><Link to="/contacts1" className="hyper"><span>सम्पर्क</span></Link></li>
           <li><Link to="/login1" className='hyper'><span>लग - इन</span></Link></li>
           

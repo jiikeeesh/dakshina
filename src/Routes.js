@@ -28,7 +28,6 @@ import Dir2 from './Components/Dir2'
 
 import Persion from './NewPages/Persion'
 import Directors from './NewPages/Directors'
-import Bod1 from './pages/Bod1'
 import NavTop from './dashboard/NavTop'
 
 import DirSaying from './AboutFiles/DirSaying'
@@ -36,6 +35,13 @@ import Introduction from './AboutFiles/Introduction'
 
 import NisPakSer from './AboutFiles/NisPakSer'
 import Loanfas from './AboutFiles/Loanfas'
+import Carousels from './AboutFiles/Carousel'
+import Objective from './AboutFiles/Objective'
+import Members from './AboutFiles/Members'
+import Punji from './YogdanFiles/Punji'
+import Biwarand from './YogdanFiles/Biwarand'
+import Gallery from './Gallery/Gallery'
+
 
 
 
@@ -68,13 +74,19 @@ const Routes = () => {
         <Route exact path="/register102" component={Register102}/>
         <Route exact path="/register103" component={Register103}/>
         <Route exact path="/register104" component={Register104}/>
-        <Route exact path="/bod1" component={Bod1}/>
+     
         <Route exact path="/navtop" component={NavTop}/>
         
         <Route exact path="/dirsaying" component={DirSaying}/>
         <Route exact path="/introduction" component={Introduction}/>
         <Route exact path="/loan" component={Loanfas}/>
         <Route exact path="/nispak" component={NisPakSer}/>
+        <Route exact path="/carousels" component={Carousels}/>
+        <Route exact path="/objective" component={Objective}/>
+        <Route exact path="/members" component={Members}/>
+        <Route exact path="/punji" component={Punji}/>
+        <Route exact path="/biwarand" component={Biwarand}/>
+        <Route exact path="/gallery" component={Gallery}/>
 
 
 

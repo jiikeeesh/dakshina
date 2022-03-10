@@ -168,56 +168,6 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
-<script>
-  "use strict";
-
-  $(window).on('load',function () {
-
-
-      //brands slider
-      $(".brand-slider").slick({
-          speed: 5000,
-          autoplay: true,
-          autoplaySpeed: 0,
-          cssEase: "linear",
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          swipeToSlide: true,
-          centerMode: true,
-          focusOnSelect: false,
-          arrows: false,
-          dots: false,
-          responsive: [
-          {
-              breakpoint: 992,
-              settings: {
-              slidesToShow: 4,
-              },
-          },
-          {
-              breakpoint: 768,
-              settings: {
-              slidesToShow: 3,
-              },
-          },
-          {
-              breakpoint: 576,
-              settings: {
-              slidesToShow: 2,
-              },
-          },
-          {
-              breakpoint: 300,
-              settings: {
-              slidesToShow: 1,
-              },
-          },
-          ],
-      });
-
-  });
-</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
