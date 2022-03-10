@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
+import ImageCarousels from './ImageCarousels'
+
+// import HomePageApi from '../Api/HomePageApi'
+
 
 
 
 
 const Homepage1  = () => {
+	// const [image ,setImage]= useState(HomePageApi)
+
+	
 
 	
 	// const settings = {
@@ -33,16 +40,19 @@ const Homepage1  = () => {
       
 <NavTop/>
     <Navbar1/>
- 
 
-   
-    <div id="myCarousel" className="carousel slide" data-ride="carousel">
+
+	<ImageCarousels/>
+
+{/* 
+	<div id="myCarousel" className="carousel slide" data-ride="carousel">
       
       <ol className="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
+      
       <div className="carousel-inner" role="listbox">
         <div className="item active">
          <Link to="/"> <img className="first-slide" src="images/ba.jpg" alt="First slide"/></Link>
@@ -58,7 +68,7 @@ const Homepage1  = () => {
         </div>
       </div>
     
-    </div>
+    </div> */}
 	<div className='scrollText'>
 		<div className="container">
 			<marquee behavior="scroll" direction=""><b>" सानो सानो बचत नै पुँजी निर्माणको आधार भएकोले खर्च कम गरौँ, दैनिक तथा मासिक आयबाट बचत गर्ने बनी बसालौँ । " | " अनुभवी बैंकर्स तथा सहकारी क्षेत्रमा अनुभव प्राप्त व्यक्तिहरुबाट संचालित " | " श्री दक्षिण फैनान्सलाई बनाऔं साथी जीवन स्तर उठ्छ माथि " | " ... सफलताको २१ औं वर्ष भरोसापूर्ण २२ औं वर्षमा संचालित " |
@@ -67,7 +77,10 @@ const Homepage1  = () => {
 
 	</div>
  
+
+   
     
+  
 	
 	{/* <!-- Three columns of text below the carousel --> */}
 
@@ -86,7 +99,7 @@ const Homepage1  = () => {
 					<p>हाम्रो संस्था संचालन अवधिकोे २१औं वर्ष पूरा गरी २२औं वर्षमा प्रवेश गरेको सुखद खबर आदरणीय शेयरसदस्यहरु महानुभावहरु समक्ष जानकारी गराउन पाउँदा मलाई अत्यन्तै खुसि लागेको छ ।</p>
 				</div>
 				<div className="intro-button">
-					<Link to="/dirsaying"><button className="btn  solo">थप पढ्नुहोस्</button></Link>
+					<Link to="/dirsaying"><button className="btn  solo" >थप पढ्नुहोस्</button></Link>
 				</div>
 			</div>
 		</div>
