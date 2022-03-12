@@ -41,6 +41,13 @@ import Members from './AboutFiles/Members'
 import Punji from './YogdanFiles/Punji'
 import Biwarand from './YogdanFiles/Biwarand'
 import Gallery from './Gallery/Gallery'
+import MembersDetails from './AboutFiles/MembersDetails'
+import FuturePlans from './AboutFiles/FuturePlans'
+
+import Investments from './AboutFiles/Investments'
+import NepalSarkar from './YogdanFiles/NepalSarkar'
+import ShareSadasya from './YogdanFiles/ShareSadasya'
+
 
 
 
@@ -89,6 +96,11 @@ const Routes = () => {
         <Route exact path="/punji" component={Punji}/>
         <Route exact path="/biwarand" component={Biwarand}/>
         <Route exact path="/gallery" component={Gallery}/>
+        <Route exact path="/membersdetails" component={MembersDetails}/>
+        <Route exact path="/futureplans" component={FuturePlans}/>
+        <Route exact path="/investment" component={Investments}/>
+        <Route exact path="/nepalsarkar" component={NepalSarkar}/>
+        <Route exact path="/sharesadasya" component={ShareSadasya}/>
 
 
 

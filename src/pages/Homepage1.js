@@ -5,6 +5,9 @@ import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
 import ImageCarousels from './ImageCarousels'
 
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem } from "mdbreact";
+import RemitanceSlider from '../Components/RemitanceSlider'
+
 // import HomePageApi from '../Api/HomePageApi'
 
 
@@ -89,7 +92,7 @@ const Homepage1  = () => {
 	<div className="container">
 		<div className="col-md">
 			<div className="intro-image">
-				<img src="images/ki2.jpg" alt="" />
+				<img src="images/main-director.png" alt="" />
 			</div>
 			<div className="intro">
 				<div className="intro-title">
@@ -263,7 +266,7 @@ const Homepage1  = () => {
 
 
 			
-  <div id="myCarousel" className="carousel slide" data-ride="carousel">
+  {/* <div id="myCarousel" className="carousel slide" data-ride="carousel">
       
      
       <div className="carousel-inner" role="listbox">
@@ -293,7 +296,7 @@ const Homepage1  = () => {
         </div>
       </div>
     
-    </div>
+    </div> */}
 						
 						{/* <div>
         
@@ -404,6 +407,9 @@ const Homepage1  = () => {
 
 
 {/* <QuickLinks/> */}
+
+
+
  
 
 <Footer1/>

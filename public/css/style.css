@@ -67,8 +67,8 @@ ul{
 /* carousel start */
 
 .slider {
-    width: 100%;
-    height: 85vh;
+  height: 85vh;
+  width: 100%;
     position: relative;
     overflow: hidden;
   }
@@ -314,7 +314,7 @@ width: 90%;
 
 .intro-image img{
     height: 200px;
-    width: 200px;
+    
     
 }
 .intro-title{
@@ -411,6 +411,38 @@ width: 90%;
 
 
 
+/* gallery starts */
+.image-container{
+    height: 100%;
+    width: 100%;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    transition: transform 1s;
+}
+.image-container img:hover{
+    transform: scale(1.2);
+}
+.vertical-line{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin: 1em 0;
+}
+.image-title{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+/* gallery ends */
+
+
+
 /* navtop starts */
 .nav_row{
     height: 30px;
@@ -450,6 +482,19 @@ width: 90%;
 
 
 /* punji ends */
+
+
+/* nispak start */
+
+.nispak-image{
+    height: 100%;
+    width: 100%;
+}
+.nispak-image img{
+height: 100%;
+width: 100%;
+}
+/* nispak ends */
 
 
 
@@ -827,12 +872,13 @@ img.img-head {
 }
 ul.multi-column-dropdown {
     text-align: left;
+    list-style: none;
 }
 .multi-column-dropdown li a {
     display: block;
     clear: both;
     line-height: 1.428571429;
-    color:#737373 !important;
+    color:white;
     white-space: normal;
     font-size: 13px;
 }
@@ -873,7 +919,7 @@ nav.navbar.navbar-default {
 
 /*--nav--*/
 .multi-column-dropdown li a {
-    color: #999 !important;
+    color: white;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color:#eee;
@@ -904,8 +950,13 @@ ul.multi-column-dropdown h6 {
 }
 
 .dropdown-menu.multi {
-    min-width: 745px;
+    min-width: 333px;
     padding: 30px 30px;
+    background-color: #3a93d8!important;
+    color: white;
+}
+.row-main{
+    width: 100%;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background: none;

@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer1 from '../dashboard/Footer1'
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
+import LoanApi from '../Api/LoanApi'
 
 import "./aboutfiles.css"
 
 
 
 const Loanfas = () => {
+
+  const[loan]=useState(LoanApi)
   return (
 
 
@@ -20,6 +23,9 @@ const Loanfas = () => {
 
     <div id="team-sub">
         <div className="container">
+        <div className="punji-title">
+      <h4><b>कर्जा सुविधा </b></h4>
+      </div>
             <div className="card-sub">
 
             <table striped bordered hover>
@@ -32,79 +38,21 @@ const Loanfas = () => {
       <th><b>मासिक ब्याज ६/६ महिनामा साँबा तिर्दा</b></th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-    <td>8</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@fat</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-  </tbody>
-</table>
+
+  {LoanApi.map((loan, index)=>{
+    return(
+      <tbody>
+        <tr>
+          <td>{loan.id}</td>
+          <td>{loan.loanTopic}</td>
+          <td>{loan.oneMonth}</td>
+          <td>{loan.oneYear}</td>
+          <td>{loan.sixMonth}</td>
+        </tr>
+      </tbody>
+    )
+  })}
+  </table>
     
 
             </div>

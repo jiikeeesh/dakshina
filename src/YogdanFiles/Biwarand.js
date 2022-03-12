@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer1 from '../dashboard/Footer1'
 import Navbar1 from '../dashboard/Navbar1'
 import NavTop from '../dashboard/NavTop'
+import BiwarandApi from '../Api/BiwarandApi'
 
 
 
@@ -9,6 +10,8 @@ import NavTop from '../dashboard/NavTop'
 
 
 const Biwarand = () => {
+
+  const[biwarand]= useState(BiwarandApi)
   return (
   <>
   <NavTop/>
@@ -34,78 +37,23 @@ const Biwarand = () => {
       <th><b>२०७५ आषाढ मसान्त सम्म</b></th>
     </tr>
   </thead>
+{BiwarandApi.map((biwarand, index)=>{
+  return(
   <tbody>
     <tr>
-      <td>1</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-    <td>8</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@fat</td>
-      <td>@१६%</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>श्री लालीगुराँस व्यापारिक कर्जा</td>
-      <td> १५%</td>
-      <td>@१५.५%</td>
-      <td>@१६%</td>
+      <td>{biwarand.id}</td>
+      <td>{biwarand.type}</td>
+      <td>{biwarand.date1}</td>
+      <td>{biwarand.date2}</td>
+      <td>{biwarand.date3}</td>
+      <td>{biwarand.date4}</td>
     </tr>
   </tbody>
+  )
+})}
+
+
+  
 </table>
     
               

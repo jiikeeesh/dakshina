@@ -52,37 +52,24 @@ const Navbar1 = () => {
           <li class="dropdown ">
 								<Link z="#" className="dropdown-toggle hyper" data-toggle="dropdown" ><span>हाम्रोबारे<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
-									<div class="row">
-										<div class="col-sm-3">
+									<div class="row-main">
+										<div class="main">
 											<ul class="multi-column-dropdown">
 			
 												<li><Link to="/dirsaying"><i class="fa fa-angle-right" aria-hidden="true"></i>प्रमुख कार्यकारी अधिकृतको भनाई</Link></li>
 												<li><Link to="/introduction"><i class="fa fa-angle-right" aria-hidden="true"></i>परिचय</Link></li>
 												<li><Link to="/objective"> <i class="fa fa-angle-right" aria-hidden="true"></i>उद्देश्य</Link></li>
 												<li><Link to="/members"  onClick={()=>{FilterItems("board__directors")}}><i class="fa fa-angle-right" aria-hidden="true"></i>संचालकहरूकाे विवरण</Link></li>
+												<li><Link to="/membersdetails"><i class="fa fa-angle-right" aria-hidden="true"></i>संस्थापक सदस्य विवरण</Link></li>
+												{/* <li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>कर्मचारी व्यवस्थापन</Link></li> */}
+												<li><Link to="/investment"><i class="fa fa-angle-right" aria-hidden="true"></i>विभिन्न संघ संस्थामा शेयर लगानी</Link></li>
+												{/* <li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>परियोजना संचालन</Link></li> */}
+												{/* <li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>संस्थागत सामाजिक उत्तरदायित्व</Link></li> */}
+												<li><Link to="/futureplans"><i class="fa fa-angle-right" aria-hidden="true"></i>भावि कार्य योजना</Link></li>
+												{/* <li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>अन्य क्षेत्र लगानी</Link></li> */}
 										
 											</ul>
 										
-										</div>
-										<div class="col-sm-3">
-										
-											<ul class="multi-column-dropdown">
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>संस्थापक सदस्य विवरण</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>कर्मचारी व्यवस्थापन</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>विभिन्न संघ संस्थामा शेयर लगानी</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>परियोजना संचालन</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>संस्थागत सामाजिक उत्तरदायित्व</Link></li>
-										
-											</ul>
-										
-										</div>
-										<div class="col-sm-3">
-										
-											<ul class="multi-column-dropdown">
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>संस्थागत सामाजिक उत्तरदायित्व</Link></li>
-												<li><Link to="/"><i class="fa fa-angle-right" aria-hidden="true"></i>अन्य क्षेत्र लगानी</Link></li>
-										
-											</ul>
 										</div>
 										
 										<div class="clearfix"></div>
@@ -93,14 +80,14 @@ const Navbar1 = () => {
           <li class="dropdown ">
 								<Link z="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>योगदान<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
-									<div class="row">
-										<div class="col-sm-3">
+									<div class="row-main">
+										<div class="main">
 											<ul class="multi-column-dropdown">
 			
 												<li><Link to="/punji"><i class="fa fa-angle-right" aria-hidden="true"></i>पूँजी संरचना</Link></li>
 												<li><Link to="/biwarand"><i class="fa fa-angle-right" aria-hidden="true"></i>वित्तिय विवरण</Link></li>
-												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>नेपाल सरकारलाई राजश्वमा गरेको योगदान</Link></li>
-												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>शेयरसदस्य विवरण</Link></li>
+												<li><Link to="/nepalsarkar"> <i class="fa fa-angle-right" aria-hidden="true"></i>नेपाल सरकारलाई राजश्वमा गरेको योगदान</Link></li>
+												<li><Link to="/sharesadasya"> <i class="fa fa-angle-right" aria-hidden="true"></i>शेयरसदस्य विवरण</Link></li>
 											</ul>
 										
 										</div>
@@ -114,13 +101,12 @@ const Navbar1 = () => {
           <li class="dropdown ">
 								<Link z="#" class="dropdown-toggle  hyper " data-toggle="dropdown" ><span>वित्तिय विवरण<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
-									<div class="row">
-										<div class="col-sm-3">
+									<div class="row-main">
+										<div class="main">
 											<ul class="multi-column-dropdown">
 			
 												<li><Link to="/nispak"><i class="fa fa-angle-right" aria-hidden="true"></i>निक्षेप सुविधा</Link></li>
 												<li><Link to="/loan"><i class="fa fa-angle-right" aria-hidden="true"></i>कर्जा सुविधा</Link></li>
-												<li><Link to="/"> <i class="fa fa-angle-right" aria-hidden="true"></i>सूचना प्रबिधि</Link></li>
 											</ul>
 										
 										</div>

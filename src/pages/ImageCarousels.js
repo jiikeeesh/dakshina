@@ -45,18 +45,19 @@ const ImageCarousels = () => {
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => {
         return (
+          
           <div
             className={index === currentSlide ? "slide current" : "slide"}
             key={index}
           >
-            {index === currentSlide && (
+            {index === currentSlide &&(
               <div>
                 <img src={slide.image} alt="slide" className="first-slide" />
                 <div className="content">
                   <h2>{slide.heading}</h2>
                   <p>{slide.desc}</p>
                   <hr />
-                  <button className="--btn --btn-secondary">Get Started</button>
+                  {/* <button className="--btn --btn-secondary">Get Started</button> */}
                 </div>
               </div>
             )}

@@ -12,8 +12,34 @@ const NisPakSer = () => {
     <br/>
     <br/>
     <br/>
-
     <div id="team-sub">
+      <div className="container">
+      <div className="punji-title">
+      <h4><b>निक्षेप सुविधा </b></h4>
+      </div>
+          
+        <div className="row">
+            
+              <div className="card-sub">
+               
+                
+        
+                    <div className="nispak-image">
+                      <img src="../images/nispak.jpg"/>
+                    </div>
+
+                    
+
+                    
+               </div> 
+        </div>
+    </div>
+    </div>
+
+
+
+
+    {/* <div id="team-sub">
         <div className="container">
             <div className="card-sub">
 
@@ -23,7 +49,7 @@ const NisPakSer = () => {
 
             </div>
         </div>
-    </div>
+    </div> */}
 
     <br/>
     <br/>

@@ -1,0 +1,89 @@
+const GalleryApi=[
+{
+    id:'1',
+    image:'./images/image-4.jpg',
+    title:"image"
+
+},
+{
+    id:'2',
+    image:'./images/image-5.JPG',
+    title:'image'
+},
+{
+    id:'3',
+    image:'./images/image-6.JPG',
+    title:'image'
+},
+{
+    id:'4',
+    image:'./images/image-7.JPG',
+    title:'image'
+},
+{
+    id:'5',
+    image:'./images/image-8.JPG',
+    title:'image'
+},
+{
+    id:'6',
+    image:'./images/image-8.JPG',
+    title:'image'
+},
+{
+    id:'7',
+    image:'./images/image-10.JPG',
+    title:'image'
+},
+{
+    id:'8',
+    image:'./images/image-111.JPG',
+    title:'image'
+},
+{
+    id:'8',
+    image:'./images/image-12.JPG',
+    title:'image'
+},
+{
+    id:'10',
+    image:'./images/image-13.JPG',
+    title:'image'
+},
+{
+    id:'11',
+    image:'./images/image-14.JPG',
+    title:'image'
+},
+{
+    id:'12',
+    image:'./images/image-15.JPG',
+    title:'image'
+},
+{
+    id:'13',
+    image:'./images/image-16.JPG',
+    title:'image'
+},
+{
+    id:'14',
+    image:'./images/image-17.JPG',
+    title:'image'
+},
+{
+    id:'15',
+    image:'./images/image-18.JPG',
+    title:'image'
+},{
+    id:'16',
+    image:'./images/image-19.JPG',
+    title:'image'
+},
+{
+    id:'17',
+    image:'./images/image-20.JPG',
+    title:'image'
+},
+]
+
+export default GalleryApi

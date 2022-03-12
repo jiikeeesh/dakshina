@@ -68,6 +68,34 @@
     padding: 2em 2em;
 }
 
+/* membersdetails start */
+
+
+.content-image{
+    padding: 2em 2em;
+    width: 100%;
+}
+.content-image img{
+    width: 100%;
+}
+
+.content-title{
+    height: 3.5rem;
+    width: 35%;
+    background-color: #0f5499;
+    color: white;
+    align-items: center;
+
+}
+.content-title h3{
+    font-size: 20px;
+    padding: 1rem 1rem;
+    
+}
+.content-details{
+    padding: 2em 2em;
+}
+/* membersdetails ends */
 
 
 

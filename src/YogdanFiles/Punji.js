@@ -19,6 +19,7 @@ const Punji = () => {
 
   <div id="team-sub">
       <div className="container">
+      
           <div className="card-sub">
 
               <div className="punji-title"><h4><b>पूँजी संरचना</b></h4></div>
