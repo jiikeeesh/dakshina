@@ -16,7 +16,7 @@ const Register103 = () => {
                 
                 
                     <div className="forg">
-                <Link to="/homepage1" className="forg-left">गृह पृष्ठमा फिर्ता</Link>
+                <Link to="/" className="forg-left">गृह पृष्ठमा फिर्ता</Link>
                 <Link to="/login1" className="forg-right">लग - इन</Link>
             <div className="clearfix"></div>
             </div>

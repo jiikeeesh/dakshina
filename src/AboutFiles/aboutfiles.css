@@ -37,6 +37,8 @@
     -moz-transition: all 0.3s ease-in;
     height: fit-content;
     width:100%;
+  
+    
     
 }
 
@@ -58,14 +60,24 @@
     height: fit-content;
 }
 .dir-image{
-    padding: 2em 2em;
-    width: 100%;
+    padding: 2em 0em 0 9em;
+    width: 50%;
+    
+    
 }
 .dir-image img{
     width: 100%;
 }
 .dir-saying{
     padding: 2em 2em;
+   text-align: justify;
+
+}
+.dir-saying p{
+    font-family: 13px/23px 'Noto Sans',Helvetica,Arial,sans-serif;
+    letter-spacing: .42px;
+    word-wrap: break-word;
+    text-rendering: optimizeLegibility!important;
 }
 
 /* membersdetails start */

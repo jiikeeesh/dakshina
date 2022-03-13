@@ -28,7 +28,7 @@ const Footer1 = () => {
 		<div className="col-md-3 footer-grid ">
 			<h3>उपयोगी लिंक </h3>
 			<ul>
-				<li><Link to="/">नेपाल राष्ट्र बैंक लि.</Link></li>
+				<li><Link to="/">  नेपाल राष्ट्र बैंक लि.</Link></li>
 				
 				<li><Link to="/">सहकारी विभाग</Link></li>
 									 

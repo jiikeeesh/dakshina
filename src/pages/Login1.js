@@ -31,7 +31,7 @@ const Login1 = () => {
 				</div>
 				<div className="forg">
 					<Link to="#" className="forg-left">पासवर्ड बिर्सनुभयो?</Link>
-					<Link to="/register101" className="forg-right">दर्ता गर्नुहोस्</Link>
+					<Link to="/mainregistration" className="forg-right">दर्ता गर्नुहोस्</Link>
 				<div className="clearfix"></div>
 				</div>
 			</div>

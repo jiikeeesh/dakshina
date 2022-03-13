@@ -68,7 +68,7 @@ const MembersDetails = () => {
                 <td>{details.id}</td>
                 <td>{details.name}</td>
                 <td>{details.contactNo}</td>
-                <td>{details.Addrress}</td>
+                <td>{details.Address}</td>
             </tr>
         </tbody>
       )

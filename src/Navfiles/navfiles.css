@@ -35,8 +35,8 @@
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
-    height: 50em;
-    width:100%;
+    height: fit-content;
+    width:144%;
     
 }
 

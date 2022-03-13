@@ -47,6 +47,7 @@ import FuturePlans from './AboutFiles/FuturePlans'
 import Investments from './AboutFiles/Investments'
 import NepalSarkar from './YogdanFiles/NepalSarkar'
 import ShareSadasya from './YogdanFiles/ShareSadasya'
+import MainRegistration from './pages/MainRegistration'
 
 
 
@@ -83,6 +84,7 @@ const Routes = () => {
         <Route exact path="/register102" component={Register102}/>
         <Route exact path="/register103" component={Register103}/>
         <Route exact path="/register104" component={Register104}/>
+        <Route exact path="/mainregistration" component={MainRegistration}/>
      
         <Route exact path="/navtop" component={NavTop}/>
         
