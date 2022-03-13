@@ -75,7 +75,7 @@
 }
 .dir-saying p{
     font-family: 13px/23px 'Noto Sans',Helvetica,Arial,sans-serif;
-    letter-spacing: .42px;
+    letter-spacing: 1px;
     word-wrap: break-word;
     text-rendering: optimizeLegibility!important;
 }

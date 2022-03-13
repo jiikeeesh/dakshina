@@ -1,9 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar1 from '../dashboard/Navbar1'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
 
 const MainRegistration = () => {
+    const[firstName, setFirstName]=useState('')
+    const[lastName, setLastName]=useState('')
+    const[email, setEmail]=useState('')
+    const[password, setPassword]= useState('')
+
+    const handleSubmit=(e)=>{
+        e.preventDefault()
+        const user={firstName, lastName, email, password}
+        console.log(user)
+
+        fetch('',{
+            method:"POST",
+            headers:{"content-type":"application/json"},
+            body:JSON.stringify(user)
+        }).then(()=>{
+            console.log('new user added')
+        })
+
+    }
+
+
+
+
   return (
     <>
      <Navbar1/>
@@ -15,7 +38,11 @@ const MainRegistration = () => {
 					<form action="#" method="post">
 						<div className="key">
 							<i className="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="नाम" name="Fristname" />
+							<input  type="text"  name="Fristname" 
+                            value={firstName}
+                            onChange={(e)=>setFirstName(e.target.value)}
+                            
+                            />
 							<div className="clearfix"></div>
 						</div>
 						<div className="key">
@@ -25,21 +52,34 @@ const MainRegistration = () => {
 						</div>
 						<div className="key">
 							<i className="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="थर " name="LastName" />
+							<input  type="text"  name="LastName" 
+                            value={lastName}
+                            onChange={(e)=>setLastName(e.target.value)}
+                            />
 							<div className="clearfix"></div>
 						</div>
                         <div className="key">
 							<i className="fa fa-envelope" aria-hidden="true"></i>
-							<input  type="text" placeholder='इमेल' name="Email" />
+							<input  type="text" placeholder='इमेल' name="Email" 
+                            value={email}
+                            onChange={(e)=>setEmail(e.target.value)}
+                            
+                            />
 							<div className="clearfix"></div>
 						</div>
                         <div className="key">
 							<i className="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" placeholder='password' name="Password" />
+							<input  type="password" placeholder='password' name="Password"
+                            value={password}
+                            onChange={(e)=>setPassword(e.target.value)}
+                            
+                            />
 							<div className="clearfix"></div>
 						</div>
 						
-						<Link to="/register103"><input type="submit" value="पेश गर्नुहोस्"/></Link>
+						<Link to="/register103"><input type="submit" value="पेश गर्नुहोस्"
+                        onClick={handleSubmit}
+                        /></Link>
 					</form>
 				</div>
 				

@@ -24,7 +24,7 @@ const DirSaying = () => {
             <div className="right">
                 <div className="card-sub">
                          <div className="dir-image">
-                <img src="../images/main-director.png" alt="" />
+                <img src="../images/ki6.jpg" alt="" />
 
             </div>
             <div className="dir-saying">
