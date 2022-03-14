@@ -35,7 +35,7 @@ const MainRegistration = () => {
 		<div className="main-agileits">
 				<div className="form-w3agile form1">
 					<h3>दर्ता गर्नुहोस्</h3>
-					<form action="#" method="post">
+					<form >
 						<div className="key">
 							<i className="fa fa-user" aria-hidden="true"></i>
 							<input  type="text"  name="Fristname" 
