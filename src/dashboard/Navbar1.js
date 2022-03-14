@@ -50,7 +50,7 @@ const Navbar1 = () => {
       </div> 
       <div className="collapse navbar-collapse" id="bs-megadropdown-tabs">
         <ul className="nav navbar-nav ">
-          <li className=" active"><Link to="/" className='hyper'><span>गृह पृष्ट </span></Link></li>
+          <li className=" active"><Link to="/" className='hyper'><span> <b>गृह पृष्ट</b>  </span></Link></li>
           <li class="dropdown ">
 								<Link z="#" className="dropdown-toggle hyper" data-toggle="dropdown" ><span>हाम्रोबारे<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">

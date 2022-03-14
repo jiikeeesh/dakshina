@@ -67,7 +67,7 @@ ul{
 /* carousel start */
 
 .slider {
-  height: 85vh;
+  height: 77vh;
   width: 100%;
     
     overflow: hidden;
@@ -107,7 +107,7 @@ ul{
     width: 50%;
     color: #fff;
     padding:0 3rem 3rem 3rem;
-    background: rgba(0, 0, 0, 0.3);
+    background: #11101046 ;
     animation: slide-up 1s ease 0.5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
@@ -208,6 +208,7 @@ ul{
 .product .col-md .service-text{
     padding: 0px 0px;
     justify-content: center;
+    text-align: justify;
     
 }
 .product h5{
@@ -218,15 +219,23 @@ ul{
 
 }
 .service-title{
-    padding-bottom: 3em;
+   
+
+}
+.service-title:hover{
+    color: white;
 
 }
 .service-text{
 width: 90%;
+text-align: center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 2.2em;
  
 }
-.service-button{
+.servicw-button{
    padding: 3em 0em;
+
 
 }
 
@@ -238,7 +247,7 @@ width: 90%;
     max-height: 100px;
     max-width: 50px;
     margin-left: 10em;
-    padding-bottom: 3em;
+    
 
 }
 .big-sam{
@@ -272,7 +281,7 @@ width: 90%;
     width: 100%;
     display: flex;
     justify-content: center;
-    color: #3a93d8!important ;
+    color: #dc4c2b!important ;
     font-size: 17px;
 }
 
@@ -281,7 +290,7 @@ width: 90%;
 
 .introduction{
     background-color: #e8f1fa;
-    padding: 50px 0;
+  
 }
 
 .introduction .container{
@@ -313,11 +322,15 @@ width: 90%;
 }
 
 .solo{
-    background-color: #0f5499 ;
-    align-items: center;
+    background-color:#fc9e63  ;
     color: white;
     font-weight: bold;
-    padding: 2px 2px;
+    padding: 10px 2px;
+    border-radius: 1px;
+    border: 1px solid white;
+    height: 3em;
+    width: 8em;
+    align-items: center;
 }
 .solo:hover{
     color: white;
@@ -336,20 +349,23 @@ width: 90%;
 .intro-title{
     font-size: 10px;
     padding: 2em 0em;
-    color: #3a93d8!important;
+    color:white;
     font-weight: 4px;
 }
 .intro-button{
     padding: 2em 0;
-    border-radius: 5px;
+  
 }
 
 .intro-button button{
-    border-radius: 5px;
-    height: 2em;
+    border-radius: 1px;
+    border: 1px solid white;
+    height: 3em;
     width: 8em;
     align-items: center;
 }
+
+
 
 /* card starts */
 
@@ -383,11 +399,13 @@ width: 90%;
 
 .row h2{
     font-size: 20px;
+    padding: 2em 0;
+    color: #fc9e63;
 }
 #team .card {
 
     border-radius: 0;
-    box-shadow: 5px 5px 15px #eee;
+    box-shadow: 5px 5px 15px #fc9e63;
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
@@ -396,8 +414,8 @@ width: 90%;
 }
 
 #team .card:hover {
-    background: #eee;
-    color: black;
+    background: #fc9e63;
+    color: white;
     border-radius: 5px;
     border: none;
     box-shadow: 5px 5px 10px #9e9e9e;
@@ -407,6 +425,9 @@ width: 90%;
 #team .card:hover i {
     color: #fff;
 }
+.card:hover h2{
+    color: white;
+}
 
 .card h4{
     padding: 1em 1em;
@@ -414,7 +435,7 @@ width: 90%;
 
 .rem-card-body{
     
-    padding-top: 3em;
+    padding-top: 1em;
    height: 100%;
    width: 100%;
     padding-left: 0em;
@@ -464,7 +485,7 @@ width: 90%;
 .nav_row{
     height: 30px;
     width: 100%;
-    background-color: #0f5499;
+    background-color: #dc4c2b;
     color: white;
 }
 .navbar_top{
@@ -480,7 +501,7 @@ width: 90%;
 .line{
     height: 2px;
     width: 100%;
-    background-color: rgb(224, 219, 219);
+    background-color:#dc4c2b;
     margin: 3em 0;
     
 }
@@ -519,7 +540,7 @@ width: 100%;
 /* bands start */
 
 .brand-title{
-    color: #3a93d8!important ;
+    color: #dc4c2b ;
     width: 100%;
     display: flex;
     justify-content: center; 
@@ -620,8 +641,8 @@ width: 100%;
   .scrollText{
       height: 3em;
       width: 100%;
-      background-color:#0f5499;
-      color: white;
+      background-color: white;
+      color: #dc4c2b;
       align-items: center;
       
   }
@@ -944,7 +965,7 @@ nav.navbar.navbar-default {
 }
 .nav > li > a {
     padding: 12px 20px  !important;
-    color: #3a93d8!important;
+    color: #fc9e63!important;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
@@ -969,7 +990,7 @@ ul.multi-column-dropdown h6 {
 .dropdown-menu.multi {
     min-width: 333px;
     padding: 30px 30px;
-    background-color: #3a93d8!important;
+    background-color: #dc4c2b!important;
     color: white;
 }
 .row-main{
@@ -1688,29 +1709,32 @@ ul.product-qty {
 }
 /*-- //footer-top --*/
 .footer {
-    background: #353535;
+    background:#fc9e63;
     padding: 5em 0;
 }
+
+
 .footer-grid h3 {
     color: #fff;
     font-size: 1.7em;
     margin-bottom: 1em;
 }
 .footer-grid p {
-    color: #ABABAB;
+    color: white;
     line-height: 2.2em;
     font-size: 14px;
+    text-align: justify;
 }
 .footer-grid ul li{
 	list-style-type:none;
 	font-size:14px;
 	line-height:2.2em;
-    color: #ABABAB;
+    color: white;
 
 }
 .footer-grid ul li a{
 
-    color: #ABABAB;		
+    color: white;		
 }
 .footer-grid ul li a:hover{
     color:#FAB005;		
@@ -2914,11 +2938,11 @@ span.last {
     width: 50%;
     float: left;
 }
-.footer-grid {
+/* .footer-grid {
     float: left;
     width: 50%;
     margin-bottom: 2em;
-}
+} */
 .footer-bottom {
     text-align: center;
     margin: 0em 0 0;

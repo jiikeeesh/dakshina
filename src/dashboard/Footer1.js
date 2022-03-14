@@ -12,7 +12,7 @@ const Footer1 = () => {
    <div className="footer">
 	<div className="container">
 		<div className="col-md-3 footer-grid">
-			<h3>ठेगाना</h3>
+			<h3><b> ठेगाना</b></h3>
 			<ul>
 				<li>ललितपुर जिल्ला , ललितपुर महानगरपालिका
 वडा नं. - ३, पुल्चोक</li>
@@ -26,7 +26,7 @@ const Footer1 = () => {
 
 		</div>
 		<div className="col-md-3 footer-grid ">
-			<h3>उपयोगी लिंक </h3>
+			<h3><b>उपयोगी लिंक </b></h3>
 			<ul>
 				<li><Link to="/">  नेपाल राष्ट्र बैंक लि.</Link></li>
 				
@@ -42,7 +42,7 @@ const Footer1 = () => {
 			</ul>
 		</div>
 		<div className="col-md-3 footer-grid ">
-			<h3>समाचार / सूचना</h3>
+			<h3> <b>समाचार / सूचना</b></h3>
 			<ul>
 				
 				<li><Link to="/">ब्याजदर ब्राेसर - २०७८-०६-०४ गतेदेखि लागु भएकाे</Link></li>
@@ -55,7 +55,7 @@ const Footer1 = () => {
 			</ul>
 		</div>
 		<div className="col-md-3 footer-grid">
-			<h3>मेरो खाता</h3>
+			<h3> <b>मेरो खाता</b></h3>
 			<ul>
 				<li><Link to="/login1">लग - इन</Link></li>
 				<li><Link to="/register101">दर्ता गर्नुहोस्</Link></li>

@@ -7,6 +7,7 @@ import ImageCarousels from './ImageCarousels'
 
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem } from "mdbreact";
 import RemitanceSlider from './RemitanceSlider'
+import Intro from './Intro'
 
 
 // import HomePageApi from '../Api/HomePageApi'
@@ -90,45 +91,7 @@ const Homepage1  = () => {
 	{/* <!-- Three columns of text below the carousel --> */}
 
 	{/* introduction  starts*/}
-	<div className="introduction">
-	<div className="container">
-		<div className="col-md">
-			<div className="intro-image">
-				<img src="images/main-director.png" alt="" />
-			</div>
-			<div className="intro">
-				<div className="intro-title">
-					<h4><b>प्रमुख कार्यकारी अधिकृतको भनाई</b></h4>
-				</div>
-				<div className="intro-text">
-					<p>हाम्रो संस्था संचालन अवधिकोे २१औं वर्ष पूरा गरी २२औं वर्षमा प्रवेश गरेको सुखद खबर आदरणीय शेयरसदस्यहरु महानुभावहरु समक्ष जानकारी गराउन पाउँदा मलाई अत्यन्तै खुसि लागेको छ ।</p>
-				</div>
-				<div className="intro-button">
-					<Link to="/dirsaying"><button className="btn  solo" >थप पढ्नुहोस्</button></Link>
-				</div>
-			</div>
-		</div>
-		<div className="col-md">
-		<div className="intro-image">
-				<img src="images/ki6.jpg" alt="" />
-		</div>
-			<div className="intro">
-				<div className="intro-title">
-					<h4><b>परिचय</b></h4>
-				</div>
-				<div className="intro-text">
-<p>देशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउन</p>				</div>
-				<div className="intro-button">
-					<Link to="/introduction"><button className="btn  solo">थप पढ्नुहोस्</button></Link>
-				</div>
-			</div>
-		</div>
-
-
-	</div>
-	</div>
-
-
+<Intro/>
 	{/* introduction ends */}
 
 	<div className="container">
@@ -232,7 +195,7 @@ const Homepage1  = () => {
 							<div className="service-text">
 								<p>कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं ।</p>
 							</div>
-							<div className="service-button">
+							<div className="intro-button">
 								<Link to='/loan'><a name="" id="" className="btn solo"  role="button">थप पढ्नुहोस्</a></Link>	
 							</div>
                             
@@ -253,8 +216,8 @@ const Homepage1  = () => {
 				
 					<p>हाम्रो ग्राहकलाई सजिलो र छिटो हुने गरी निक्षेप सुबिधा उपलब्ध गराएका छाैं |</p>
 				</div>
-				<div className="service-button">
-					<Link to="/nispak"><a name="" id="" className="btn btn-primary solo"  role="button">थप पढ्नुहोस्</a>	</Link>
+				<div className="intro-button">
+					<Link to="/nispak"><a name="" id="" className="btn  solo"  role="button">थप पढ्नुहोस्</a>	</Link>
 				</div>
                         </div>
                     </div>
@@ -262,7 +225,7 @@ const Homepage1  = () => {
 
                <div className="col-lg-3 ">
                     <div className="card">
-					<h4><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h4>
+					<h2><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h2>
                         <div className="rem-card-body">
 							<RemitanceSlider/>
 

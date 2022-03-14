@@ -19,7 +19,7 @@ const Gallery = () => {
   return (
     
     <>
-    <NavTop/>
+   
     <Navbar1/>
     <br/>
     <br/>

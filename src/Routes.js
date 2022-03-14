@@ -6,14 +6,14 @@ import Register from './pages/Register'
 import Login from './pages/Login'
 import Bod from './pages/Bod'
 import Contacts from './pages/Contacts'
-import Codes from './pages/Codes'
+
 import Solo from './pages/Solo'
 import Register1 from './pages/Register1'
 import Register3 from './pages/Register3'
 import Registerf from './pages/Registerf'
 import About1 from './pages/About1'
 
-import Codes1 from './pages/Codes1'
+
 import Homepage1 from './pages/Homepage1'
 import Solo1 from './pages/Solo1'
 import Contacts1 from './pages/Contacts1'
@@ -67,7 +67,7 @@ const Routes = () => {
         <Route exact path="/login" component={Login}/>
         <Route exact path="/bod" component={Bod}/>
         <Route exact path="/contact" component={Contacts}/>
-        <Route exact path="/codes" component={Codes}/>
+      
         <Route exact path="/solo" component={Solo}/>
         <Route exact path="/homepage" component={Homepage}/>
        
@@ -78,7 +78,7 @@ const Routes = () => {
         <Route exact path="/reg3" component={Registerf}/>
         <Route exact path="/about1" component={About1}/>
        
-        <Route exact path="/codes1" component={Codes1}/>
+        
         <Route exact path="/homepage1" component={Homepage}/>
         <Route exact path="/solo1" component={Solo1}/>
         <Route exact path="/contacts1" component={Contacts1}/>
