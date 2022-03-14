@@ -6,7 +6,8 @@ import NavTop from '../dashboard/NavTop'
 import ImageCarousels from './ImageCarousels'
 
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem } from "mdbreact";
-import RemitanceSlider from '../Components/RemitanceSlider'
+import RemitanceSlider from './RemitanceSlider'
+
 
 // import HomePageApi from '../Api/HomePageApi'
 
@@ -41,11 +42,12 @@ const Homepage1  = () => {
   return (
    <>
       
-<NavTop/>
+
     <Navbar1/>
 
-
+<div  className="imagecarousel">
 	<ImageCarousels/>
+	</div>
 
 {/* 
 	<div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -258,10 +260,11 @@ const Homepage1  = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-3 ">
+               <div className="col-lg-3 ">
                     <div className="card">
 					<h4><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h4>
                         <div className="rem-card-body">
+							<RemitanceSlider/>
 
 
 

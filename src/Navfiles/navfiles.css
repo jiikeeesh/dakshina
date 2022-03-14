@@ -65,4 +65,8 @@
 }
 .gun{
     padding: 1em 0em 1em 6em;
+    
+}
+.quick-links li{
+    text-decoration: none;
 }

@@ -7,7 +7,7 @@ import NavTop from '../dashboard/NavTop'
 const NisPakSer = () => {
   return (
   <>
-  <NavTop/>
+
     <Navbar1/>
     <br/>
     <br/>

@@ -49,6 +49,9 @@ import NepalSarkar from './YogdanFiles/NepalSarkar'
 import ShareSadasya from './YogdanFiles/ShareSadasya'
 import MainRegistration from './pages/MainRegistration'
 
+import ForgetPassword from './pages/ForgetPassword'
+
+
 
 
 
@@ -103,6 +106,9 @@ const Routes = () => {
         <Route exact path="/investment" component={Investments}/>
         <Route exact path="/nepalsarkar" component={NepalSarkar}/>
         <Route exact path="/sharesadasya" component={ShareSadasya}/>
+       
+        <Route exact path="/forgetpassword" component={ForgetPassword}/>
+       
 
 
 

@@ -16,7 +16,7 @@ const Investments = () => {
 
 
     <>
-    <NavTop/>
+   
     <Navbar1/>
     <br/>
     <br/>

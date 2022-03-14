@@ -19,7 +19,7 @@ const MembersDetails = () => {
 
   return (
   <>
-  <NavTop/>
+ 
   <Navbar1/>
   <br/>
   <br/>

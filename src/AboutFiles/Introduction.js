@@ -13,7 +13,7 @@ import "./aboutfiles.css"
 const Introduction= () => {
   return (
   <>
-  <NavTop/>
+  
   <Navbar1/>
   <br/>
   <br/>
@@ -30,7 +30,12 @@ const Introduction= () => {
 
             </div>
             <div className="dir-saying">
-                <p>Lorem ipsum dolor sit amet consectetur adipieniam atque magnam exercitationem, fugit aut consequuntur reprehenderit sunt cum sequi, ut officia earum laudantium alias ipsum in eum blanditiis voluptate totam aliquid doloribus! A consectetur cumque unde quaerat quo quod corporis quisquam saepe temporibus facere voluptatem placeat consequatur accusantium facilis, ipsa vel, iste nam eum suscipit? Quasi voluptas est suscipit temporibus in accusamus. Dignissimos corporis voluptas, nesciunt repellendus cumque sapiente temporibus et sint expedita, odio enim? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, et similique, ea accusantium ipsa unde architecto distinctio enim quae iste odio voluptate doloribus, eaque id laboriosam? Error eos perferendis animi?</p>
+                <p>देशमा स्थापना भएका वित्तिय संस्था, विकास बैंक तथा वाणिज्य बैंकहरूले मात्र कमजोर अवस्थामा रहेको राष्ट्रिय अर्थतन्त्रलाई अपेक्षाकृत रुपमा सुधारात्मक दिशातर्फ अगाडी बढाउन नसकेको वर्तमान परिप्रेक्षमा, सहकारी संस्थाहरूको विकास तिव्र रुपमा भईरहेको छ । आम नेपाली जनताहरू (निम्न वर्गिय, मध्यम वर्गिय, उच्च वर्गिय) को भावनालाई आत्मसाथ गरी देशमा अहिले करीब ३३,००० (तेत्तीस हजार) सहकारी संस्थाहरू संचालनमा रहेका छन् । तराई, पहाड देखि हिमाली भेगको ग्रामणि क्षेत्रमा वित्तिय सेवाको अभावको कारणबाट सेवामा परेका नेपाली नागरिकहरूलाई वित्तिय सेवा प्रदान गर्ने कार्य सहकारी संस्थाहरूबाट मात्र भएको छ । यसै परिप्रेक्षमा विद्यमान सहकारी ऐन तथा नियमावलीलाई परिमार्जन गरी, आम नेपाली नागरिकहरूलाई सहकारी आन्दोलनमा समावेश गराई, जनताको जीवनस्तर सँग सम्बन्धित हरेक क्रियाकलापहरुमा सहकारीकरण गरी सहकारीलाई वित्त, उत्पादन र वितरणमा लक्षित गरी अगाडी बढ्नु पर्ने हाम्रो आवश्यकता रहेको छ ।</p>
+                <br />
+                <p>वर्तमान सहकारी बजारमा चुक्ता पूँजी, निक्षेप संकलन, कर्जा सापटी, मुनाफा आर्जन, नेपाल सरकारलाई राजश्वमा गरेको योगदान र कूल कारोबारमा हामी अग्रणी स्थानमा रहेका छौं। सदस्यहरूलाई दिने प्रतिफल लगायत संस्थागत सुशासनमा हामी सदा सर्वदा प्रतिबद्ध रहेका छौं। संस्थालाई भविष्यमा थप सशक्त रूपमा संचालन गर्दै नेपालको समग्र सहकारी आन्दोलनमा नेतृत्वदायी भूमिका निर्वाह गर्ने सम्पूर्ण शेयर सदस्य तथा आम नेपाली नागरिकहरू समक्ष प्रतिवद्धता जाहेर गर्दछौं ।</p>
+                <br />
+                <p>नेपाल सरकार सहकारी तथा गरिबी निवारण मन्त्रालय, सहकारी विभाग, डिभिजन सहकारी कार्यालय ललितपुरमा २०५६ साल भाद्र १८ गते दर्ता भई २०५६ साल आश्विन १५ गतेबाट कारोबार सुरुवात गरी अहिले हामी २२औं वर्ष पुरा गरी २३औं वर्षमा संचालित छौं । यस संस्थाको कार्यक्षेत्र साविक ४ अञ्चल (बागमती, गण्डकी, नारायणी र लुम्बिनी) र हाल २६ जिल्ला (ललितपुर, काठमाण्डौं, भक्तपुर, नुवाकोट, रसुवा,  सिन्धुपाल्चोक, धादिङ्ग, काभ्रेपलाञ्चोक, चितवन, बारा, मकवानपुर, पर्सा, रौतहट, गोरखा, लमजुङ्ग, मनाङ्ग, तनहुँ, कास्की, स्याङ्गजा, अर्घखाँची, गुल्मी, कपिलवस्तु, नवलपरासी (पुर्व), नवलपरासी (पश्चिम), पाल्पा र रुपन्देही) भर कायम रहेको छ ।</p>
+                <br />
             </div>
                     
                 </div>

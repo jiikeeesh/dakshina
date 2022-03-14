@@ -5,6 +5,7 @@ import NavTop from '../dashboard/NavTop'
 import LoanApi from '../Api/LoanApi'
 
 import "./aboutfiles.css"
+import QuickLinks from '../Navfiles/QuickLinks'
 
 
 
@@ -15,7 +16,7 @@ const Loanfas = () => {
 
 
     <>
-    <NavTop/>
+    
     <Navbar1/>
     <br/>
     <br/>
@@ -53,9 +54,10 @@ const Loanfas = () => {
     )
   })}
   </table>
-    
+  
 
             </div>
+            
         </div>
     </div>
 

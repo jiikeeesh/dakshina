@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Board from '../Api/BodApi'
+import NavTop from './NavTop'
 
 
 
@@ -17,6 +18,7 @@ const Navbar1 = () => {
  
   return (
    <>
+   <NavTop/>
      <div className="header">
 
 <div className="naver">

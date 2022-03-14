@@ -3,10 +3,12 @@ import React from 'react'
 import Navbar1 from '../dashboard/Navbar1'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
+import NavTop from "../dashboard/NavTop"
 
 const Contacts1 = () => {
   return (
     <>
+
       <Navbar1/>
     <br/>
     <br/>

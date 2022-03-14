@@ -11,7 +11,7 @@ import "./aboutfiles.css"
 const FuturePlans = () => {
   return (
   <>
-  <NavTop/>
+  
   <Navbar1/>
   <br/>
   <br/>

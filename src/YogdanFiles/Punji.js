@@ -11,7 +11,7 @@ import NavTop from '../dashboard/NavTop'
 const Punji = () => {
   return (
   <>
-  <NavTop/>
+
   <Navbar1/>
   <br/>
   <br/>

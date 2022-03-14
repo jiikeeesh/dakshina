@@ -12,7 +12,7 @@ const Carousels = () => {
   return (
       <>
 
-  <NavTop/>
+ 
   <Navbar1/>
   <br/>
   <br/>

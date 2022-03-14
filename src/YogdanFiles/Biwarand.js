@@ -14,7 +14,7 @@ const Biwarand = () => {
   const[biwarand]= useState(BiwarandApi)
   return (
   <>
-  <NavTop/>
+  
   <Navbar1/>
   <br/>
   <br/>

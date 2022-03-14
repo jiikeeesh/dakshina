@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar1 from '../dashboard/Navbar1'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
+import NavTop from '../dashboard/NavTop'
 
 const MainRegistration = () => {
     const[firstName, setFirstName]=useState('')
@@ -29,7 +30,8 @@ const MainRegistration = () => {
 
   return (
     <>
-     <Navbar1/>
+    
+    <Navbar1/>
     
     <div className="login">
 		<div className="main-agileits">
@@ -73,6 +75,16 @@ const MainRegistration = () => {
 							<div className="clearfix"></div>
 						</div>
                         <button className="btn btn-primary" onClick={handleSubmit}>पेश गर्नुहोस्</button>
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <div className="forg">
+                            
+                            <Link to="/" className="forg-right">गृह पृष्ठमा फिर्ता</Link>
+                            <Link to="/login1" className="forg-left">लग - इन</Link>
+                        <div className="clearfix"></div>
+				        </div>
 						
 						{/* <Link to="/register103"><input type="submit" value="पेश गर्नुहोस्"
                         onClick={handleSubmit}

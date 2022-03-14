@@ -14,7 +14,7 @@ const ShareSadasya = () => {
   const[Share]= useState(ShareSadasyaApi)
   return (
   <>
-  <NavTop/>
+  
   <Navbar1/>
   <br/>
   <br/>

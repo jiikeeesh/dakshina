@@ -14,7 +14,7 @@ const NepalSarkar = () => {
   const[tax]= useState(NepalSarkarApi)
   return (
   <>
-  <NavTop/>
+
   <Navbar1/>
   <br/>
   <br/>
