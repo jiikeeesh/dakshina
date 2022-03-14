@@ -42,11 +42,7 @@ const Contacts1 = () => {
 				<div id="container">
 					
 					<div id="parentHorizontalTab">
-						<ul className="resp-tabs-list hor_1">
-							<li><i className="fa fa-envelope" aria-hidden="true"></i></li>
-							<li> <i className="fa fa-map-marker" aria-hidden="true"></i> </li>
-							<li> <i className="fa fa-phone" aria-hidden="true"></i></li>
-						</ul>
+						
 						<div className="resp-tabs-container hor_1">
 							<div>
 								<form>
@@ -56,17 +52,7 @@ const Contacts1 = () => {
 									<input type="submit" value="Submit" />
 								</form>
 							</div>
-							<div>
-								<div className="map-grid">
-								<h5>हाम्रा शाखाहरू</h5>
-									<ul>
-										<li><i className="fa fa-arrow-right" aria-hidden="true"></i>756 Global Place, New York.</li>
-										<li><i className="fa fa-arrow-right" aria-hidden="true"></i>889 diamond street, USA.</li>
-										<li><i className="fa fa-arrow-right" aria-hidden="true"></i>756 global Place, New York.</li>
-										<li><i className="fa fa-arrow-right" aria-hidden="true"></i>889 diamond street, USA.</li>
-									</ul>
-								</div>
-							</div>
+							
 							<div>
 								<div className="map-grid">
 									<h5>सम्पर्क मार्फत</h5>
