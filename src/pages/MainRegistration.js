@@ -14,7 +14,7 @@ const MainRegistration = () => {
         const user={firstName, lastName, email, password}
         console.log(user)
 
-        fetch('',{
+        fetch('http://localhost:8080/api/dakshina/register',{
             method:"POST",
             headers:{"content-type":"application/json"},
             body:JSON.stringify(user)
@@ -45,11 +45,7 @@ const MainRegistration = () => {
                             />
 							<div className="clearfix"></div>
 						</div>
-						<div className="key">
-							<i className="fa fa-user" aria-hidden="true"></i>
-							<input  type="text" value="MiddleName" name="Lastname" />
-							<div className="clearfix"></div>
-						</div>
+						
 						<div className="key">
 							<i className="fa fa-user" aria-hidden="true"></i>
 							<input  type="text"  name="LastName" 
@@ -76,10 +72,11 @@ const MainRegistration = () => {
                             />
 							<div className="clearfix"></div>
 						</div>
+                        <button className="btn btn-primary" onClick={handleSubmit}>पेश गर्नुहोस्</button>
 						
-						<Link to="/register103"><input type="submit" value="पेश गर्नुहोस्"
+						{/* <Link to="/register103"><input type="submit" value="पेश गर्नुहोस्"
                         onClick={handleSubmit}
-                        /></Link>
+                        /></Link> */}
 					</form>
 				</div>
 				
