@@ -333,7 +333,12 @@ line-height: 2.2em;
     align-items: center;
 }
 .solo:hover{
+    transform: scale(1.2);
     color: white;
+}
+.solo{
+    transition: transform 1s;
+   
 }
 .intro{
     height: 100%;
@@ -354,6 +359,7 @@ line-height: 2.2em;
 }
 .intro-button{
     padding: 2em 0;
+   
   
 }
 
@@ -1730,14 +1736,19 @@ ul.product-qty {
 	font-size:14px;
 	line-height:2.2em;
     color: white;
+    transition: 1s ease;
 
 }
 .footer-grid ul li a{
 
-    color: white;		
+    color: white;
+    transition: transform 1s;
+    		
 }
 .footer-grid ul li a:hover{
-    color:#FAB005;		
+    font-weight: bold;	
+    text-decoration: none;
+    transform: skewX(1.2);	
 }
 
 .copy-right p {
