@@ -8,7 +8,7 @@ body{
 	margin:0;
 	padding:0;
 	background:#fff;
-	font-family: 'Noto Sans',Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans';
  }
 body a{
 	transition:0.5s all;
@@ -219,6 +219,7 @@ ul{
 
 }
 .service-title{
+    padding-top: 2em;
    
 
 }
@@ -229,8 +230,9 @@ ul{
 .service-text{
 width: 90%;
 text-align: center;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family:'Noto Sans';
 line-height: 2.2em;
+padding-top: 2em;
  
 }
 .servicw-button{
@@ -265,6 +267,9 @@ line-height: 2.2em;
 }
 .text{
     padding-bottom: 20px;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .services-content{
@@ -390,6 +395,10 @@ line-height: 2.2em;
     width: 100%;
     display:  flex;
 
+}
+.raw{
+    width: 100%;
+    height: fit-content;
 }
 .card-body{
     width: 100%;
@@ -517,7 +526,10 @@ line-height: 2.2em;
 
 .text{
     padding: 4em 2em;
-    line-height: 3em;
+   text-align: justify;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .punji-title{
@@ -917,21 +929,26 @@ img.img-head {
 ul.multi-column-dropdown {
     text-align: left;
     list-style: none;
+    line-height: 28px;
 }
 .multi-column-dropdown li a {
     display: block;
     clear: both;
-    line-height: 1.428571429;
+    
     color:white;
     white-space: normal;
     font-size: 13px;
+    text-decoration: none;
+    
 }
 .multi-column-dropdown li a i{
     margin-right:7px;
+   
 }
 .multi-column-dropdown li {
-    list-style-type: none;
+ 
     margin: 7px 0;
+  text-decoration: none;
 }
 
 .multi-column-dropdown li a:hover {
@@ -996,7 +1013,7 @@ ul.multi-column-dropdown h6 {
 .dropdown-menu.multi {
     min-width: 333px;
     padding: 30px 30px;
-    background-color: #dc4c2b!important;
+    background-color: #fc9e63!important;
     color: white;
 }
 .row-main{
@@ -3166,6 +3183,8 @@ ul.multi-column-dropdown {
 }
 .navbar-default .navbar-toggle {
     border-color: #FAB005;
+
+
 }
 .navbar-nav {
     margin: 1em 0 0;

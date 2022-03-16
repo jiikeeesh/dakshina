@@ -13,7 +13,8 @@ const QuickLinks = () => {
       <div className="container">
         <div className="card-main">
       <ul className='quick-links'>
-                           <li className='gun'><Link to="/dirsaying" className=''><span>प्रमुख कार्यकारी अधिकृतको भनाई </span></Link></li>
+                
+                           <li className="gun"><Link to="/dirsaying" className=''><span>प्रमुख कार्यकारी अधिकृतको भनाई  </span></Link></li>
                            <li className="gun"><Link to="/introduction" className=''><span>परिचय </span></Link></li>
                            <li className="gun"><Link to="/objective" className=''><span>उद्देश्य</span></Link></li>
                            <li className="gun"><Link to="/members" className=''><span>संचालकहरूकाे विवरण</span></Link></li>

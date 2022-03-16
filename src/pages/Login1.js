@@ -29,7 +29,7 @@ const Login1 = () => {
 							<div className="clearfix"></div>
 						</div>
 						
-						<input type="submit" value="लग - इन"/>
+						<Link to="/userDashboard"><input type="submit" value="लग - इन"/></Link>
 					</form>
 				</div>
 				<div className="forg">

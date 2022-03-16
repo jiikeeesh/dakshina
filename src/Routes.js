@@ -51,6 +51,8 @@ import MainRegistration from './pages/MainRegistration'
 
 import ForgetPassword from './pages/ForgetPassword'
 
+import UserDashboard from './Auth/UserDashboard'
+
 
 
 
@@ -108,6 +110,7 @@ const Routes = () => {
         <Route exact path="/sharesadasya" component={ShareSadasya}/>
        
         <Route exact path="/forgetpassword" component={ForgetPassword}/>
+        <Route exact path="/userdashboard" component={UserDashboard}/>
        
 
 

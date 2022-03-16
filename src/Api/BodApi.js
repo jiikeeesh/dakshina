@@ -99,18 +99,8 @@ const Board=[
         description:
           "I love Maggi realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
       },
-      {
-        name:"lumin manandhar",
-        address: "kathmandu",
-        position: "Co-Director",
-        contact: "9849624949",
-        category:"board__directors",
-
-        description:
-          "I love Maggi realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
-      },
-   
-   
+      
+      
     
 
 

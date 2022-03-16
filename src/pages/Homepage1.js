@@ -183,14 +183,14 @@ const Homepage1  = () => {
 {/* cards start */}
 <section id="team">
         <div className="container my-3 py-5 text-center">
-            <div className="row">
+            <div className='raw'>
 
-                <div className="col-lg-3 ">
+                <div className="col-lg-4 ">
                     <div className="card">
                         <div className="card-body">
 						<img src="images/loan.svg" className="service-image img-responsive img" alt=""/>
 						<div className="service-title">
-									<h2><b>कर्जा सुविधा</b></h2>
+									<h4><b>कर्जा सुविधा</b></h4>
 								</div>
 							<div className="service-text">
 								<p>कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं ।</p>
@@ -203,13 +203,13 @@ const Homepage1  = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-3 ">
+                <div className="col-lg-4 ">
                     <div className="card">
                         <div className="card-body">
 						<img src="images/deposit.svg" className="service-image img-responsive img" alt=""/>
 						<div className="service-title">
 					
-					<h2><b>निक्षेप सुविधा</b></h2>
+					<h4><b>निक्षेप सुविधा</b></h4>
 				</div>
 
 				<div className="service-text">
@@ -223,9 +223,9 @@ const Homepage1  = () => {
                     </div>
                 </div>
 
-               <div className="col-lg-3 ">
+               <div className="col-lg-4 ">
                     <div className="card">
-					<h2><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h2>
+					<h4><b>संस्थाबाट उपलब्ध गराइने रेमिटेन्स</b></h4>
                         <div className="rem-card-body">
 							<RemitanceSlider/>
 
