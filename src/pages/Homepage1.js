@@ -75,8 +75,8 @@ const Homepage1  = () => {
       </div>
     
     </div> */}
-	<div className='scrollText'>
-		<div className="container">
+	<div className='scrollText  color'>
+		<div className="container  ">
 			<marquee behavior="scroll" direction=""><b>" सानो सानो बचत नै पुँजी निर्माणको आधार भएकोले खर्च कम गरौँ, दैनिक तथा मासिक आयबाट बचत गर्ने बनी बसालौँ । " | " अनुभवी बैंकर्स तथा सहकारी क्षेत्रमा अनुभव प्राप्त व्यक्तिहरुबाट संचालित " | " श्री दक्षिण फैनान्सलाई बनाऔं साथी जीवन स्तर उठ्छ माथि " | " ... सफलताको २१ औं वर्ष भरोसापूर्ण २२ औं वर्षमा संचालित " |
 </b></marquee>
 		</div>
@@ -105,7 +105,7 @@ const Homepage1  = () => {
 
 	<div className="product">
 	<div className="container">
-	<div className="service-tile">
+	<div className="service-tile  color">
 				<h3><b>हाम्रा सेवाहरू</b></h3>
 				</div>
 {/* 			
@@ -196,7 +196,7 @@ const Homepage1  = () => {
 								<p>कर्जा लगानी संस्थाले कर्जा लगानीमा विभेदिकरणको सिद्धान्तलाई विशेष रुपमा पालना गर्दै तपशिल विवरणमा उल्लेखित कर्जा शिर्षकहरुमा कर्जा प्रवाह गर्दै आएको व्यहोरा अवगत गराउँदछौं ।</p>
 							</div>
 							<div className="intro-button">
-								<Link to='/loan'><a name="" id="" className="btn solo"  role="button">थप पढ्नुहोस्</a></Link>	
+								<Link to='/loan'><a name="" id="" className="btn solo  back-color"  role="button">थप पढ्नुहोस्</a></Link>	
 							</div>
                             
                         </div>
@@ -217,7 +217,7 @@ const Homepage1  = () => {
 					<p>हाम्रो ग्राहकलाई सजिलो र छिटो हुने गरी निक्षेप सुबिधा उपलब्ध गराएका छाैं |</p>
 				</div>
 				<div className="intro-button">
-					<Link to="/nispak"><a name="" id="" className="btn  solo"  role="button">थप पढ्नुहोस्</a>	</Link>
+					<Link to="/nispak"><a name="" id="" className="btn  solo  back-color"  role="button">थप पढ्नुहोस्</a>	</Link>
 				</div>
                         </div>
                     </div>

@@ -42,9 +42,9 @@ const UserNav = () => {
       </div> 
       <div className="collapse navbar-collapse" id="bs-megadropdown-tabs">
         <ul className="nav navbar-nav ">
-          <li className=" active"><Link to="#" className='hyper'><span> <b>गृह पृष्ट</b>  </span></Link></li>
+          <li className=" active"><Link to="#" className='hyper  color'><span> <b>गृह पृष्ट</b>  </span></Link></li>
           <li class="dropdown ">
-								<Link z="#" className="dropdown-toggle hyper" data-toggle="dropdown" ><span>हाम्रोबारे<b class="caret"></b></span></Link>
+								<Link z="#" className="dropdown-toggle hyper color" data-toggle="dropdown" ><span>हाम्रोबारे<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
 									<div class="row-main">
 										<div class="main">
@@ -72,7 +72,7 @@ const UserNav = () => {
 							</li>
           	
           <li class="dropdown ">
-								<Link z="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>योगदान<b class="caret"></b></span></Link>
+								<Link z="#" class="dropdown-toggle  hyper  color" data-toggle="dropdown" ><span>योगदान<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
 									<div class="row-main">
 										<div class="main">
@@ -93,7 +93,7 @@ const UserNav = () => {
          
 
           <li class="dropdown ">
-								<Link z="#" class="dropdown-toggle  hyper " data-toggle="dropdown" ><span>वित्तिय विवरण<b class="caret"></b></span></Link>
+								<Link z="#" class="dropdown-toggle  hyper  color " data-toggle="dropdown" ><span>वित्तिय विवरण<b class="caret"></b></span></Link>
 								<ul class="dropdown-menu multi">
 									<div class="row-main">
 										<div class="main">
@@ -109,9 +109,9 @@ const UserNav = () => {
 									</div>	
 								</ul>
 							</li>
-							<li ><Link to="#" className="hyper"   ><span>तस्बिर पुस्तिका</span></Link></li>
-          <li><Link to="#" className="hyper"><span>सम्पर्क</span></Link></li>
-          <li><Link to="/login1" className='hyper'><span>log-Out</span></Link></li>
+							<li ><Link to="#" className="hyper  color"   ><span>तस्बिर पुस्तिका</span></Link></li>
+          <li><Link to="#" className="hyper color"><span>सम्पर्क</span></Link></li>
+          <li><Link to="/login1" className='hyper color'><span>log-Out</span></Link></li>
           
         </ul>
        

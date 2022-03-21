@@ -9,7 +9,7 @@ const UserFooter = () => {
    <Brands/>
    <br/>
    <br/>
-   <div className="footer">
+   <div className="footer back-color">
 	<div className="container">
 		<div className="col-md-3 footer-grid">
 			<h3><b> ठेगाना</b></h3>

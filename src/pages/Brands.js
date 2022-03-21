@@ -50,7 +50,7 @@ const Brands  = () => {
   
   return(
    <>
-   <div  className="brand-title">
+   <div  className="brand-title  color">
       <h1><b>हाम्रो साझेदार</b></h1>
       </div>
     {/* <div id='brands-bar' class="brand">

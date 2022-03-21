@@ -3,7 +3,7 @@ import React from 'react'
 const NavTop = () => {
   return (
     <>
-    <div className="nav_row">
+    <div className="nav_row  back-color">
         <div className="container">
         <nav className="navbar_top">
             <div className="contact__num">
