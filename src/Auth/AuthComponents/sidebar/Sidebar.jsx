@@ -3,7 +3,7 @@ import {
   LineStyle,
  
   PermIdentity,
-  Storefront,
+
 
   MailOutline,
   DynamicFeed,
@@ -36,12 +36,12 @@ export default function Sidebar() {
                 प्रयोगकर्ता
               </li>
             </Link>
-            <Link to="/products" className="link">
+            {/* <Link to="/products" className="link">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 सेवाहरू
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </div>
         <div className="sidebarMenu">

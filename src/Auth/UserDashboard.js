@@ -9,9 +9,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UserList from "./AuthPages/userList/UserList";
 import User from "./AuthPages/user/User";
 import NewUser from "./AuthPages/newUser/NewUser";
-import ProductList from "./AuthPages/productList/ProductList";
-import Product from "./AuthPages/product/Product";
-import NewProduct from "./AuthPages/newProduct/NewProduct";
+
+
+
 
 
 const UserDashboard = () => {
@@ -40,15 +40,9 @@ const UserDashboard = () => {
           <Route path="/newUser">
             <NewUser />
           </Route>
-          <Route path="/products">
-            <ProductList />
-          </Route>
-          <Route path="/product/:productId">
-            <Product />
-          </Route>
-          <Route path="/newproduct">
-            <NewProduct />
-          </Route>
+        
+       
+       
         </Switch>
       </div>
     </Router>

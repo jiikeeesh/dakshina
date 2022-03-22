@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar1 from '../dashboard/Navbar1'
 import Footer1 from '../dashboard/Footer1'
 import { Link } from 'react-router-dom'
 
 
 const Login1 = () => {
+
+	const [email, setEmail]= useState('');
+	const [password, setPassword]= useState('')
   return (
     <>
 	
@@ -19,13 +22,15 @@ const Login1 = () => {
 					<form action="#" method="post">
 						<div className="key">
 							<i className="fa fa-envelope" aria-hidden="true"></i>
-							<input type="text" value="इमेल" name="Email" />
+							<input type="text" value={email} name="Email" 
+							onChange={(e)=>setEmail(e.target.value)} />
 							<div className="clearfix"></div>
 						
 						</div>
 						<div className="key">
 							<i className="fa fa-lock" aria-hidden="true"></i>
-							<input  type="password" value="Password" name="Password" />
+							<input  type="password" value={password} name="Password" 
+							onChange={(e)=>setPassword(e.target.value)}/>
 							<div className="clearfix"></div>
 						</div>
 						

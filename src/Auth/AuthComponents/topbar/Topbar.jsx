@@ -9,7 +9,7 @@ export default function Topbar() {
       <div className="topbarWrapper">
       {/* <img src="../images/main-director.jpg" alt="" className="topAvatar" /> */}
         <div className="topLeft">
-          <span className="logo">user</span>
+          <span className="logo">Admin</span>
         </div>
        </div>
     </div>
